@@ -1,0 +1,44 @@
+body {
+    background: linear-gradient(to right, #e81cff, #40c9ff);
+    color: white;
+}
+
+button {
+    width: 100px;
+    height: 30px;
+    border: 3px solid white;
+    border-radius: 50px;
+    background: #202020;
+    color: white;
+    cursor: pointer;
+    outline: none;
+}
+
+/* Kalau class panggil dengan (.), sedangkan selain itu pakai (#) */
+.stopwatch {
+    font-size: 100px;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -55%);
+}
+
+.header {
+    color: black;
+    font-size: 100px;
+    position: absolute;
+    top: 10%;
+    left: 25%;
+}
+
+#buttons {
+    position: absolute;
+    top: 55%;
+    left: 49%;
+    transform: translate(-52%, -45%);
+}
+
+#buttons li {
+    display: inline;
+    padding-left: 10px;
+}
